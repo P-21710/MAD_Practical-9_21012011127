@@ -8,11 +8,12 @@
     android:background="@drawable/rectangle_gradient">
 
 
-
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:src="@drawable/logo_animation_list"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
